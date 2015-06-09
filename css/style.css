@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    width: 200px;
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+}
+
+canvas {
+    z-index: 2;
+    top: 10px;
+    border: 10px solid #eee;
+}
+
+#color_selection {
+    position: relative;
+    width: 150px;
+    display:table;
+    border-collapse:separate;
+    border-spacing:10px;
+}
+
+#grey {
+    height: 20px;
+    width: 20px;
+    background: #EEE;
+    border: 2px solid #000;
+    display: table-cell;
+}
+
+#red {
+    height: 20px;
+    width: 20px;
+    background: #F00;
+    border: 2px solid #000;
+    display: table-cell;
+}
+
+#green {
+    height: 20px;
+    width: 20px;
+    background: #0F0;
+    border: 2px solid #000;
+    display: table-cell;
+}
+
+#yellow {
+    height: 20px;
+    width: 20px;
+    background: #FF0;
+    border: 2px solid #000;
+    display: table-cell;
+}
